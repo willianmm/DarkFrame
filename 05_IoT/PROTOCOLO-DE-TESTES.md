@@ -1,11 +1,11 @@
-# Monitor de temperatura TMP36 — protocolo
+# Monitor de temperatura TMP36 — protocolo de verificação
 
-Hardware de simulação: Arduino Uno R3, TMP36, protoboard, LEDs verde/amarelo/vermelho, três resistores 220 Ω e jumpers. Pinos LEDs: 8,9,10. TMP36: 5V/A0/GND.
+A implementação do código está em [monitor_tmp36.ino](monitor_tmp36.ino). O memorial de conexões e o cálculo de temperatura estão em [DF-IOT-002](MEMORIAL-IOT-TMP36.md).
 
-| Temperatura | Verde | Amarelo | Vermelho | Resultado medido | Evidência |
-|---|---|---|---|---|---|
-| 24 °C | ACESO | apagado | apagado | PENDENTE | PENDENTE |
-| 29 °C | apagado | ACESO | apagado | PENDENTE | PENDENTE |
-| 35 °C | apagado | apagado | ACESO | PENDENTE | PENDENTE |
+| Temperatura configurada | Verde esperado | Amarelo esperado | Vermelho esperado | Resultado medido | Evidência | Aprovado/Reprovado |
+|---|---|---|---|---|---|---|
+| 24 °C | Aceso | Apagado | Apagado | Pendente | Pendente | Não executado |
+| 29 °C | Apagado | Aceso | Apagado | Pendente | Pendente | Não executado |
+| 35 °C | Apagado | Apagado | Aceso | Pendente | Pendente | Não executado |
 
-Use o arquivo `codigo-base.ino` como rascunho e revise seus valores no Tinkercad. Printar circuito e serial em cada ensaio. Não há ensaios executados neste pacote.
+O monitor serial deve exibir o valor calculado da temperatura. Registrar uma imagem do circuito e do monitor serial por caso. Guardar link público Tinkercad. Nenhum ensaio foi executado ou certificado por este registro.
