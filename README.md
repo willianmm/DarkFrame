@@ -13,4 +13,4 @@
 ## Status
 PROPOSTA TÉCNICA, NÃO IMPLANTADA. Preços provisórios, sem consulta individual a fornecedores; faltam especificação completa de SKU, validações de compatibilidade, medições de RF/elétrica, teste de restauração, arquivo Packet Tracer, ensaio Tinkercad e vídeo.
 
-**GitHub de referência:** https://github.com/willianmm/DarkFrameStudios
+**GitHub de referência:** https://github.com/willianmm/DarkFrame
