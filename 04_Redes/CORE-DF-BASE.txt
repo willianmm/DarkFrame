@@ -1,0 +1,74 @@
+! DF-RED-005 - MODELO DIDATICO de switch L3 Cisco IOS (Packet Tracer)
+! NAO aplicar em producao sem revisar interfaces, modelo e ACLs!
+enable
+configure terminal
+hostname CORE-DF
+ip routing
+vlan 10
+ name ADMIN
+vlan 20
+ name OPERACIONAL
+vlan 30
+ name CRIATIVO
+vlan 40
+ name TI
+vlan 50
+ name SERVIDORES
+vlan 60
+ name IOT-RESERVADA
+vlan 70
+ name VISITANTES
+vlan 80
+ name IMPRESSAO
+vlan 90
+ name GERENCIA
+interface vlan 10
+ ip address 10.50.10.1 255.255.255.224
+ ip helper-address 10.50.50.3
+ no shutdown
+interface vlan 20
+ ip address 10.50.20.1 255.255.255.192
+ ip helper-address 10.50.50.3
+ no shutdown
+interface vlan 30
+ ip address 10.50.30.1 255.255.255.224
+ ip helper-address 10.50.50.3
+ no shutdown
+interface vlan 40
+ ip address 10.50.40.1 255.255.255.224
+ ip helper-address 10.50.50.3
+ no shutdown
+interface vlan 50
+ ip address 10.50.50.1 255.255.255.224
+ no shutdown
+interface vlan 60
+ ip address 10.50.60.1 255.255.255.224
+ no shutdown
+interface vlan 70
+ ip address 10.50.70.1 255.255.255.192
+ ip helper-address 10.50.50.3
+ ip access-group ACL-GUEST-IN in
+ no shutdown
+interface vlan 80
+ ip address 10.50.80.1 255.255.255.224
+ no shutdown
+interface vlan 90
+ ip address 10.50.90.1 255.255.255.224
+ no shutdown
+ip access-list extended ACL-GUEST-IN
+ remark Negar acesso de visitantes as redes privadas
+ permit udp any eq 68 any eq 67
+ deny ip 10.50.70.0 0.0.0.63 10.0.0.0 0.255.255.255
+ deny ip 10.50.70.0 0.0.0.63 172.16.0.0 0.15.255.255
+ deny ip 10.50.70.0 0.0.0.63 192.168.0.0 0.0.255.255
+ permit ip 10.50.70.0 0.0.0.63 any
+exit
+! Exemplo de trunk. Conferir nomes das interfaces no modelo escolhido
+! interface gigabitEthernet1/0/1
+!  description UPLINK-SW-A1
+!  switchport mode trunk
+!  switchport trunk allowed vlan 10,20,30,40,50,60,70,80,90
+! Para VLANs corporativas implementar ACLs inter-VLAN adicionais
+! ou roteamento via firewall. Sem essas regras, o core roteia entre VLANs.
+end
+write memory
