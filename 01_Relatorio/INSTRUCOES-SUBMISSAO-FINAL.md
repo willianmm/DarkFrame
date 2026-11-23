@@ -1,9 +1,12 @@
 # DF-REL-005 — Orientações de submissão final (revisão 23/11/2026)
 
 ## Documento pronto como base
-Foi produzido um relatório PDF de revisão nesta conversa com as quatro disciplinas, resultados reportados de IoT, presença do projeto Packet Tracer, risco de custos, links GitHub e Tinkercad. **O PDF ainda não é versão final submetível**, pois o vídeo e a identificação acadêmica privada não foram inseridos.
+Foi produzido um relatório PDF de revisão nesta conversa com as quatro disciplinas, resultados reportados de IoT, presença do projeto Packet Tracer, risco de custos, links GitHub e Tinkercad. **A cópia privada consolidada, preparada no ChatGPT com os identificadores acadêmicos provenientes do arquivo privado da equipe, ainda não é versão final submetível**, pois o vídeo e a identificação acadêmica privada não foram inseridos.
 
 O PDF de revisão é entregue como anexo do ChatGPT; **não foi publicado automaticamente no repositório**. O documento em Markdown presente aqui registra as modificações necessárias para concluir.
+
+## Roteiro de gravação preparado
+O texto integral da apresentação está em [DF-REL-006](TEXTO-VIDEO-FINAL-10-12-MIN.md). Ele orienta uma apresentação de 10 a 12 minutos, dentro da janela de 8 a 15 minutos do checklist. O vídeo ainda precisa ser gravado pela equipe.
 
 ## Campos finais a preencher na cópia privada
 - Nome do professor, curso/instituição, turma e título conforme enunciado.
