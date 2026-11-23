@@ -18,9 +18,9 @@ Os testes foram realizados no simulador Tinkercad, considerando três cenários 
 
 | Temperatura configurada | Verde esperado | Amarelo esperado | Vermelho esperado | Resultado medido | Evidência | Aprovado/Reprovado |
 |---|---|---|---|---|---|---|
-| 24 °C | Aceso | Apagado | Apagado | 23,8 °C | [Teste 24 °C](evidencias/teste-24c.webp) | Aprovado |
-| 29 °C | Apagado | Aceso | Apagado | 29,2 °C | [Teste 29 °C](evidencias/teste-29c.webp) | Aprovado |
-| 35 °C | Apagado | Apagado | Aceso | 35,0 °C | [Teste 35 °C](evidencias/teste-35c.webp) | Aprovado |
+| 24 °C | Aceso | Apagado | Apagado | 23,8 °C | [Teste 24 °C](evidencias/teste-24c.png) | Aprovado |
+| 29 °C | Apagado | Aceso | Apagado | 29,2 °C | [Teste 29 °C](evidencias/teste-29c.png) | Aprovado |
+| 35 °C | Apagado | Apagado | Aceso | 35,0 °C | [Teste 35 °C](evidencias/teste-35c.png) | Aprovado |
 
 ## 4. Evidências das simulações
 
@@ -28,7 +28,7 @@ Os testes foram realizados no simulador Tinkercad, considerando três cenários 
 
 O sensor TMP36 foi configurado para 24 °C. O Monitor Serial registrou 23,8 °C, com o LED verde aceso e os demais apagados.
 
-![Teste de 24 graus Celsius](evidencias/teste-24c.webp)
+![Teste de 24 graus Celsius](evidencias/teste-24c.png)
 
 **Resultado:** Aprovado.
 
@@ -36,7 +36,7 @@ O sensor TMP36 foi configurado para 24 °C. O Monitor Serial registrou 23,8 °C,
 
 O sensor TMP36 foi configurado para 29 °C. O Monitor Serial registrou 29,2 °C, com o LED amarelo aceso e os demais apagados.
 
-![Teste de 29 graus Celsius](evidencias/teste-29c.webp)
+![Teste de 29 graus Celsius](evidencias/teste-29c.png)
 
 **Resultado:** Aprovado.
 
@@ -44,7 +44,7 @@ O sensor TMP36 foi configurado para 29 °C. O Monitor Serial registrou 29,2 °C,
 
 O sensor TMP36 foi configurado para 35 °C. O Monitor Serial registrou 35,0 °C, com o LED vermelho aceso e os demais apagados.
 
-![Teste de 35 graus Celsius](evidencias/teste-35c.webp)
+![Teste de 35 graus Celsius](evidencias/teste-35c.png)
 
 **Resultado:** Aprovado.
 
