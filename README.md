@@ -26,7 +26,7 @@ Infraestrutura proposta para produção e administração de canais no YouTube, 
 ## Pendências reais de fechamento
 1. Completar/homologar equipamentos e orçamento integral, incluindo servidores, rede, gabinetes, fontes e DDR5; confirmar fornecedor, SKU, garantia, frete, data e preço.
 2. Conferir versões, modelo de licenças, custos e eventual teste de recuperação. Não afirmar implantação de serviços ou backup sem evidência.
-3. Gravar e publicar o vídeo final; inserir URL no PDF e conferir acesso sem login.
+3. Gravar e publicar o vídeo final com apoio do [roteiro completo](01_Relatorio/TEXTO-VIDEO-FINAL-10-12-MIN.md); inserir URL no PDF e conferir acesso sem login.
 4. Personalizar a **cópia privada** do PDF com identificação acadêmica exigida e submetê-la no canal oficial.
 
 ## Pastas legadas
