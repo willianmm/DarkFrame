@@ -5,6 +5,9 @@ Foi produzido um relatório PDF de revisão nesta conversa com as quatro discipl
 
 O PDF de revisão é entregue como anexo do ChatGPT; **não foi publicado automaticamente no repositório**. O documento em Markdown presente aqui registra as modificações necessárias para concluir.
 
+## Roteiro de apresentação pronto
+A equipe pode usar o texto integral [DF-REL-006 — Vídeo de 10 a 12 minutos](TEXTO-VIDEO-FINAL-10-12-MIN.md) na gravação. Este roteiro não equivale a vídeo publicado.
+
 ## Campos finais a preencher na cópia privada
 - Nome do professor, curso/instituição, turma e título conforme enunciado.
 - Nomes e RAs de todos os integrantes, somente na cópia privada entregue ao professor.
