@@ -21,8 +21,10 @@ Infraestrutura proposta para empresa de produção e administração de canais d
 ## Pastas legadas
 As pastas `02_Planejamento`, `03_Redes`, `04_IoT` e `05_Governanca` correspondem a versões anteriores e **não são a referência oficial da v3.0**. Permanecem no repositório até revisão e eventual arquivamento. Ver [auditoria de publicação](06_Governanca/AUDITORIA_PUBLICACAO_2026-10-20.md).
 
+## Evidência de redes
+A topologia lógica foi aberta e conferida no Cisco Packet Tracer 9.0.1. Veja o [arquivo editável](04_Redes/DarkFrame_topologia.pkt), a [captura dos quatro andares](04_Redes/evidencias/DarkFrame_topologia.png) e o [registro de verificação](04_Redes/ROTEIRO-PACKET-TRACER.md).
+
 ## Pendências de comprovação
-- Elaborar/validar a topologia nativa no **Cisco Packet Tracer** (`.pkt`) e guardar suas evidências.
 - Executar no **Tinkercad** o circuito TMP36 + Arduino e registrar resultados de **24 °C, 29 °C e 35 °C** com capturas do circuito e Monitor Serial.
 - Homologar hardware e compatibilidade por modelo, reunindo referências e **cotações datadas** de fornecedores. Totais atuais são apenas estimativas.
 - Conferir licenças, garantias, capacidades de armazenamento, backup e recuperação.

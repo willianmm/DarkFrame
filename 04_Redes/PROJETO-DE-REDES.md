@@ -1,6 +1,6 @@
 # Projeto de redes — DF-RED-001
 
-**Topologia física proposta:** 2 circuitos de operadoras distintas → firewall de borda → switch L3 central → uplinks de fibra 10 Gb/s até quatro switches de acesso por piso → estações/APs/impressoras. VLANs interligadas somente via firewall/ACL. Monitorar disponibilidade e ocupar <= 80% das portas. **Não há evidência de implantação física ou arquivo .pkt gerado.**
+**Topologia física proposta:** 2 circuitos de operadoras distintas → firewall de borda → switch L3 central → uplinks de fibra 10 Gb/s até quatro switches de acesso por piso → estações/APs/impressoras. VLANs interligadas somente via firewall/ACL. Monitorar disponibilidade e ocupar <= 80% das portas. **Evidência de simulação:** [topologia conceitual no Packet Tracer](DarkFrame_topologia.pkt) e [captura dos enlaces](evidencias/DarkFrame_topologia.png).
 
 ## Endereçamento IPv4 e VLANs
 
