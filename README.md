@@ -1,35 +1,36 @@
 # DarkFrame Studios — Infraestrutura Computacional (v3.0)
 
-**Estado:** projeto técnico e acadêmico em desenvolvimento. A empresa é fictícia; equipamentos, servidores e redes descritos não foram implantados.
+**Estado:** projeto técnico e acadêmico em fase de fechamento. A empresa é fictícia; equipamentos, servidores e redes descritos não foram implantados em ambiente físico.
 
 **Repositório oficial:** https://github.com/willianmm/DarkFrame
 
 ## Escopo
-Infraestrutura proposta para empresa de produção e administração de canais do YouTube, com **50 funcionários em um único edifício de quatro pavimentos**. Abrange Arquitetura de Computadores, Sistemas Operacionais, Redes e IoT.
+Infraestrutura proposta para produção e administração de canais no YouTube, com **50 funcionários em um edifício de quatro andares**. Disciplinas: Arquitetura de Computadores, Sistemas Operacionais, Redes e IoT.
 
-## Documentação principal (v3.0)
+## Documentação principal
 | Pasta | Conteúdo |
 |---|---|
-| [01_Relatorio](01_Relatorio) | Memorial e relatório técnico |
-| [02_Arquitetura](02_Arquitetura) | Perfis dos 50 postos, compatibilidade, servidores, RAID e orçamento |
-| [03_Sistemas_Operacionais](03_Sistemas_Operacionais) | Serviços, permissões, proteção e recuperação |
-| [04_Redes](04_Redes) | Plantas conceituais, VLANs, IPv4 e topologias |
-| [05_IoT](05_IoT) | Protótipo Arduino com TMP36 e roteiro de testes |
-| [06_Governanca](06_Governanca) | Riscos, critérios de aceite, pendências e responsáveis |
-| [07_Referencias](07_Referencias) | Fontes e documentação de suporte |
+| [01_Relatorio](01_Relatorio) | Resumo executivo, estrutura de PDF, apresentação e instruções de submissão |
+| [02_Arquitetura](02_Arquitetura) | Perfis dos 50 postos, pesquisa de preços, homologação e custos |
+| [03_Sistemas_Operacionais](03_Sistemas_Operacionais) | Serviços, licenças, permissões, segurança e recuperação |
+| [04_Redes](04_Redes) | Plantas, VLANs, IPv4, [topologia nativa Packet Tracer](04_Redes/DarkFrame_topologia.pkt) |
+| [05_IoT](05_IoT) | Código, memorial e evidências Tinkercad |
+| [06_Governanca](06_Governanca) | Critérios de aceite e matriz atualizada de pendências |
+| [07_Referencias](07_Referencias) | Fontes de apoio |
+
+## Evidências práticas já publicadas
+**Packet Tracer:** [arquivo editável](04_Redes/DarkFrame_topologia.pkt), [captura dos quatro andares](04_Redes/evidencias/DarkFrame_topologia.png), [registro técnico](04_Redes/ROTEIRO-PACKET-TRACER.md). O registro da equipe indica montagem e abertura no Packet Tracer 9.0.1. VLANs, ACLs, DNS e DHCP não estão demonstrados como configurados, conforme o roteiro.
+
+**Tinkercad:** [código Arduino](05_IoT/monitor_tmp36.ino), [protocolo de testes](05_IoT/PROTOCOLO-DE-TESTES.md) e capturas [24 °C](05_IoT/evidencias/teste-24c.png), [29 °C](05_IoT/evidencias/teste-29c.png), [35 °C](05_IoT/evidencias/teste-35c.png). [Abrir circuito compartilhado](https://www.tinkercad.com/things/9YpYYnOT4nK-darkframe-monitor-tmp36?sharecode=IinUTfr2kZB4kWGQIVWQxDl-odx-CBLEJG6nf4tWruU). As leituras registradas foram 23,8 °C, 29,2 °C e 35,0 °C, respectivamente; são resultados em simulador, não em hardware físico.
+
+## Pendências reais de fechamento
+1. Completar/homologar equipamentos e orçamento integral, incluindo servidores, rede, gabinetes, fontes e DDR5; confirmar fornecedor, SKU, garantia, frete, data e preço.
+2. Conferir versões, modelo de licenças, custos e eventual teste de recuperação. Não afirmar implantação de serviços ou backup sem evidência.
+3. Gravar e publicar o vídeo final; inserir URL no PDF e conferir acesso sem login.
+4. Personalizar a **cópia privada** do PDF com identificação acadêmica exigida e submetê-la no canal oficial.
 
 ## Pastas legadas
-As pastas `02_Planejamento`, `03_Redes`, `04_IoT` e `05_Governanca` correspondem a versões anteriores e **não são a referência oficial da v3.0**. Permanecem no repositório até revisão e eventual arquivamento. Ver [auditoria de publicação](06_Governanca/AUDITORIA_PUBLICACAO_2026-10-20.md).
+`02_Planejamento`, `03_Redes`, `04_IoT` e `05_Governanca` contêm versões anteriores; usar as pastas da estrutura v3.0 acima como referência.
 
-## Evidência de redes
-A topologia lógica foi aberta e conferida no Cisco Packet Tracer 9.0.1. Veja o [arquivo editável](04_Redes/DarkFrame_topologia.pkt), a [captura dos quatro andares](04_Redes/evidencias/DarkFrame_topologia.png) e o [registro de verificação](04_Redes/ROTEIRO-PACKET-TRACER.md).
-
-## Pendências de comprovação
-- Executar no **Tinkercad** o circuito TMP36 + Arduino e registrar resultados de **24 °C, 29 °C e 35 °C** com capturas do circuito e Monitor Serial.
-- Homologar hardware e compatibilidade por modelo, reunindo referências e **cotações datadas** de fornecedores. Totais atuais são apenas estimativas.
-- Conferir licenças, garantias, capacidades de armazenamento, backup e recuperação.
-- Preparar vídeo final e inserir o URL na entrega acadêmica.
-
-**Privacidade:** nomes completos e RAs dos integrantes pertencem à documentação acadêmica privada; não publicar a pasta `ENTREGA_PRIVADA` nem credenciais, tokens ou backups reais.
-
-**Data de entrega prevista no enunciado:** 27/11/2026.
+**Privacidade:** não publicar RAs, credenciais, dados pessoais de participantes ou pasta `ENTREGA_PRIVADA` no repositório aberto.  
+**Entrega prevista:** 27/11/2026.
