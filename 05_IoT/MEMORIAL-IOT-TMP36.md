@@ -42,9 +42,9 @@ Código fonte: [monitor_tmp36.ino](monitor_tmp36.ino).
 
 | Caso | Temperatura ajustada no Tinkercad | Resultado esperado | Medição obtida | Captura do circuito e Serial | Situação |
 |---|---:|---|---|---|---|
-| Normal | 24 °C | Apenas LED verde | 23,8 °C | [Evidência 24 °C](evidencias/teste-24c.webp) | Aprovado |
-| Atenção | 29 °C | Apenas LED amarelo | 29,2 °C | [Evidência 29 °C](evidencias/teste-29c.webp) | Aprovado |
-| Crítico | 35 °C | Apenas LED vermelho | 35,0 °C | [Evidência 35 °C](evidencias/teste-35c.webp) | Aprovado |
+| Normal | 24 °C | Apenas LED verde | 23,8 °C | [Evidência 24 °C](evidencias/teste-24c.png) | Aprovado |
+| Atenção | 29 °C | Apenas LED amarelo | 29,2 °C | [Evidência 29 °C](evidencias/teste-29c.png) | Aprovado |
+| Crítico | 35 °C | Apenas LED vermelho | 35,0 °C | [Evidência 35 °C](evidencias/teste-35c.png) | Aprovado |
 
 Os três testes foram realizados no Tinkercad, verificando o comportamento dos LEDs e os valores apresentados no Monitor Serial.
 
