@@ -29,6 +29,13 @@ Infraestrutura proposta para produção e administração de canais no YouTube, 
 3. Gravar e publicar o vídeo final; inserir URL no PDF e conferir acesso sem login.
 4. Personalizar a **cópia privada** do PDF com identificação acadêmica exigida e submetê-la no canal oficial.
 
+
+## Revisão técnica e financeira — 23/11/2026
+- [Matriz de compatibilidade da arquitetura](02_Arquitetura/HOMOLOGACAO-MATRIZ-2026-11-23.md): confirma plataformas AMD/placas em documentação oficial e destaca QVL, limites NAS e homologação pendente.
+- [Controle de orçamento e itens a cotar](02_Arquitetura/ORCAMENTO-BASE-E-ITENS-A-COTAR-2026-11-23.md): concilia o subtotal parcial sem inventar preços ausentes.
+- [Decisão de sistemas e licenciamento](03_Sistemas_Operacionais/DECISAO-PLATAFORMA-E-LICENCIAMENTO-2026-11-23.md): proposta Proxmox VE, Ubuntu Server 24.04 LTS, Samba AD e Windows 11 Pro com condições de aceite.
+- Planilha XLSX de controle foi gerada para revisão e preenchimento pela equipe; **não está anexada automaticamente ao repositório**.
+
 ## Pastas legadas
 `02_Planejamento`, `03_Redes`, `04_IoT` e `05_Governanca` contêm versões anteriores; usar as pastas da estrutura v3.0 acima como referência.
 
